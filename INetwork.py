@@ -6,6 +6,7 @@ from __future__ import absolute_import
 from utils import imread, imresize, imsave, fromimage, toimage
 
 from scipy.optimize import fmin_l_bfgs_b
+from scipy import stats
 import numpy as np
 import time
 import argparse
